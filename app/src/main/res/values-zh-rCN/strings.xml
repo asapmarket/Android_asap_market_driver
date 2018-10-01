@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">暴走快递</string>
+    <string name="commit">提交</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="location_error">无法定位，请打开定位服务</string>
+    <string name="success">操作成功</string>
+
+    <!-- 登录、注册、密码相关 -->
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="verify_code_hint">输入验证码</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="protocol_first">我已阅读并同意</string>
+    <string name="protocol_second">《用户服务协议》</string>
+    <string name="has_account">已有账号？返回登录</string>
+    <string name="register_now">立即注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="new_password_hint">输入新密码</string>
+    <string name="confirm_new_password_hint">确认新密码</string>
+    <string name="password_not_same">两次输入的新密码不一致</string>
+    <string name="change_password_success">密码修改成功</string>
+    <string name="find_password">找回密码</string>
+    <string name="change_password">修改密码</string>
+    <string name="old_password_hint">输入原始密码</string>
+    <string name="account_setting">账户设置</string>
+    <string name="avatar">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="nickname_is_null">昵称为空</string>
+    <string name="change_pwd">密码修改</string>
+    <string name="change_nickname_success">昵称修改成功</string>
+    <string name="logout">退出登录</string>
+    <string name="confirm_logout">确认退出登录？</string>
+
+    <string name="english">英文</string>
+    <string name="chinese">中文</string>
+    <string name="language_setting">语言</string>
+
+    <!-- 主页相关 -->
+    <string name="home">大厅</string>
+    <string name="order">订单</string>
+    <string name="unfinished">未完成</string>
+    <string name="personal">个人中心</string>
+    <string name="exit_after_press_again">再按一次退出程序</string>
+    <string name="index">首页</string>
+    <string name="onwork">上班中</string>
+    <string name="offwork">已下班</string>
+    <string name="map_order">地图接单</string>
+    <string name="ungrab_order">待接订单</string>
+
+    <!-- 订单相关 -->
+    <string name="order_manager">订单管理</string>
+    <string name="choose">筛选</string>
+    <string name="search_order_hint">请输入订单号或手机号查询</string>
+    <string name="out_order">外卖订单</string>
+    <string name="urgent_order">催单记录</string>
+    <string name="distance">距我</string>
+    <string name="order_number">订单编号</string>
+    <string name="distribution_time">配送时间</string>
+    '
+    <string name="grab_order">接单</string>
+    <string name="order_time">接单时间</string>
+    <string name="create_time">下单时间</string>
+    <string name="order_in_delivery">配送中</string>
+    <string name="order_finished">已完成</string>
+    <string name="order_urgent">催单</string>
+
+    <string name="order_status_buy_success">下单成功</string>
+    <string name="order_status_taking">取件中</string>
+    <string name="order_status_on_road">在路上</string>
+    <string name="order_status_finished">订单完成</string>
+    <string name="order_status_taken">快递员接单</string>
+    <string name="order_status_taken1">已接单</string>
+    <string name="order_status_feedback">已反馈</string>
+    <string name="order_status_cancel">已取消</string>
+
+    <string name="order_status_wait_for_taken">等待接单</string>
+    <string name="order_status_wait_for_feedback">等待反馈价格</string>
+    <string name="order_status_wait_for_pay">等待付款</string>
+    <string name="order_status_paid">付款成功</string>
+    <string name="order_status_pay_in_cash">现金支付</string>
+
+    <!-- 订单详情 -->
+    <string name="order_detail">订单详情</string>
+    <string name="taken">已取件</string>
+    <string name="take">取件</string>
+    <string name="email_code">邮编地址</string>
+    <string name="order_phone_number">手机号</string>
+
+    <!-- 搜索相关 -->
+    <string name="search">搜索</string>
+    <string name="reset">重置</string>
+    <string name="order_status">订单状态</string>
+    <string name="start_time">起始时间</string>
+    <string name="end_time">终止时间</string>
+    <string name="pay_type">支付方式</string>
+    <string name="order_number_hint">请输入订单号</string>
+    <string name="confirm_search">确认搜索</string>
+    <string name="appointment_time_valid">起始时间不能晚于终止时间</string>
+    <string name="balance">余额</string>
+    <string name="credit_card">刷卡支付</string>
+
+    <string name="no_route">没有搜索到线路</string>
+
+    <string name="order_count_unit">单</string>
+    <string name="email">邮编</string>
+
+    <string name="on_road_tip">是否全部订单已取件完成，马上进行送件？</string>
+    <string name="no_google_map_app">您尚未安装谷歌地图或地图版本过低</string>
+
+    <string name="remark">备注</string>
+    <string name="order_price">订单总价</string>
+
+    <string name="pay_in_cash">现金支付</string>
+    <string name="confirm_receipt">确认收款</string>
+    <string name="confirm_receipt_tip">*该用户选择了现金支付，商品全部送达后，请选择确认收款！</string>
+    <string name="confirm_receipt_tip2">是否确认收到了全部款项</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <string name="no_permission">没授权</string>
+    <string name="paymethod_rewardpoint">饭点支付</string>
+
+    <string name="errand_order">私人定制</string>
+    <string name="takeout_order">外卖订单</string>
+    <string name="feedback_price">反馈价格</string>
+    <string name="cost_of_goods">商品费</string>
+    <string name="total">待购商品总价</string>
+    <string name="input_total_price">请输入待购商品总价</string>
+    <string name="purchase_completion">购买完成</string>
+    <string name="total_price">总价$</string>
+</resources>

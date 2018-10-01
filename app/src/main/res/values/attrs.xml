@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Mhysa_EditText">
+        <attr name="showLeft" format="reference|boolean"/>
+        <attr name="showRight" format="reference|boolean"/>
+        <attr name="icon" format="reference"/>
+        <attr name="hint" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:clipToPadding="true"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_header"/>
+
+    <com.mhysa.waimai.kuaidi.ui.customerviews.EditTextLayout
+        android:id="@+id/layout_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        app:hint="@string/phone_hint"
+        app:icon="@mipmap/ic_phone"
+        app:showLeft="false"
+        app:showRight="false"/>
+
+    <com.mhysa.waimai.kuaidi.ui.customerviews.EditTextLayout
+        android:id="@+id/layout_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hint="@string/verify_code_hint"
+        app:icon="@mipmap/ic_write"
+        app:showLeft="false"
+        app:showRight="true"/>
+
+    <com.mhysa.waimai.kuaidi.ui.customerviews.EditTextLayout
+        android:id="@+id/layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hint="@string/password_hint"
+        app:icon="@mipmap/ic_password"
+        app:showLeft="false"
+        app:showRight="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_protocol"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:button="@drawable/protocol_state"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-5dp"
+            android:text="@string/protocol_first"
+            android:textColor="#4d4d4d"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/protocol_second"
+            android:textColor="#2196f3"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_register"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_has_account"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/has_account"
+            android:textColor="#2196f3"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.mhysa.waimai.kuaidi"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 9
+        versionName "2.0.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("com.mhysa.waimai.kuaidi.jks")
+            storePassword "20170727"
+            keyPassword "20170727"
+            keyAlias "mhysa"
+            v2SigningEnabled false
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+//            buildConfigField('String', 'BASE_URL', '"http://47.90.202.220:9000/"')
+            buildConfigField('String', 'BASE_URL', '"http://123.56.234.98:8080/waimai_exp/"')
+            buildConfigField('boolean', 'Debug', 'true')
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            signingConfig signingConfigs.release
+            buildConfigField('String', 'BASE_URL', '"http://47.90.202.220:9000/"')
+//            buildConfigField('String', 'BASE_URL', '"http://123.56.234.98:8080/waimai_exp/"')
+            buildConfigField('boolean', 'Debug', 'false')
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        def fileName = "Kuaidi${defaultConfig.versionName}-${defaultConfig.versionCode}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    compile project(':devilfish')
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.google.android.gms:play-services-maps:10.2.0'
+    compile 'com.google.android.gms:play-services:10.2.0'
+}

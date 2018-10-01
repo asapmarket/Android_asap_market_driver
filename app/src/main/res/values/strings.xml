@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Baozou deliver</string>
+    <string name="commit">Commit</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="location_error">Locate error, open location service</string>
+    <string name="success">success</string>
+
+    <!-- 登录、注册、密码相关 -->
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="phone_hint">Please input phone</string>
+    <string name="verify_code_hint">Please input verify code</string>
+    <string name="password_hint">Please input password</string>
+    <string name="get_verify_code">Get verify code</string>
+    <string name="protocol_first">I agreen</string>
+    <string name="protocol_second">User service protocol</string>
+    <string name="has_account">Has account? back to login</string>
+    <string name="register_now">Register now</string>
+    <string name="forget_password">Forget password</string>
+    <string name="new_password_hint">Input new password</string>
+    <string name="confirm_new_password_hint">Confirm new password</string>
+    <string name="password_not_same">The new password entered for the two time is inconsistent</string>
+    <string name="change_password_success">Change password success</string>
+    <string name="find_password">Find password</string>
+    <string name="change_password">Modify password</string>
+    <string name="old_password_hint">Please input old password</string>
+    <string name="account_setting">Account setting</string>
+    <string name="avatar">Avatar</string>
+    <string name="nickname">Nickname</string>
+    <string name="nickname_is_null">Nickname is empty</string>
+    <string name="change_pwd">Modify password</string>
+    <string name="change_nickname_success">Modify nickname success</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_logout">Confirm logout?</string>
+
+    <string name="english">English</string>
+    <string name="chinese">简体中文</string>
+    <string name="language_setting">Language preferences</string>
+
+    <!-- 主页相关 -->
+    <string name="home">Home</string>
+    <string name="order">Order</string>
+    <string name="unfinished">Unfinished</string>
+    <string name="personal">Personal</string>
+    <string name="exit_after_press_again">Exit after press again</string>
+    <string name="index">Home</string>
+    <string name="onwork">On work</string>
+    <string name="offwork">Off work</string>
+    <string name="map_order">Map</string>
+    <string name="ungrab_order">Ungrab order</string>
+
+    <!-- 订单相关 -->
+    <string name="order_manager">Order manager</string>
+    <string name="choose">Choose</string>
+    <string name="search_order_hint">Please input order number or phone number</string>
+    <string name="out_order">Outter order</string>
+    <string name="urgent_order">Urgent order</string>
+    <string name="distance">Distance</string>
+    <string name="order_number">Order number</string>
+    <string name="distribution_time">Distribution time</string>
+    <string name="grab_order">Take</string>
+    <string name="order_time">Take time</string>
+    <string name="create_time">Create time</string>
+    <string name="order_in_delivery">In delivery</string>
+    <string name="order_finished">Finished</string>
+    <string name="order_urgent">Urgent</string>
+
+    <string name="order_status_buy_success">Success</string>
+    <string name="order_status_taking">Taking</string>
+    <string name="order_status_on_road">On road</string>
+    <string name="order_status_finished">Finished</string>
+    <string name="order_status_taken">Taken</string>
+    <string name="order_status_taken1">Taken</string>
+    <string name="order_status_feedback">Feedback</string>
+    <string name="order_status_cancel">Cancel</string>
+
+    <string name="order_status_wait_for_taken">Wait for taken</string>
+    <string name="order_status_wait_for_feedback">Wait for feedback</string>
+    <string name="order_status_wait_for_pay">Wait for pay</string>
+    <string name="order_status_paid">Pay Success</string>
+    <string name="order_status_pay_in_cash">Pay in cash</string>
+
+    <!-- 订单详情 -->
+    <string name="order_detail">Order detail</string>
+    <string name="taken">Taken</string>
+    <string name="take">Take</string>
+    <string name="email_code">Email code</string>
+    <string name="order_phone_number">Phone number</string>
+
+    <!-- 搜索相关 -->
+    <string name="search">Search</string>
+    <string name="reset">Reset</string>
+    <string name="order_status">Order status</string>
+    <string name="start_time">Start</string>
+    <string name="end_time">End</string>
+    <string name="pay_type">Pay type</string>
+    <string name="order_number_hint">Please input order number</string>
+    <string name="confirm_search">Confirm</string>
+    <string name="appointment_time_valid">Start time should not be later than end time</string>
+    <string name="balance">Balance</string>
+    <string name="credit_card">Pay with card</string>
+
+    <string name="no_route">No route</string>
+
+    <string name="order_count_unit">units</string>
+    <string name="email">Email code</string>
+
+    <string name="on_road_tip">Are all orders completed and immediate delivery? </string>
+
+    <string name="no_google_map_app">No google maps found</string>
+
+    <string name="remark">Remark</string>
+    <string name="order_price">Order Price</string>
+
+    <string name="pay_in_cash">Pay In Cash</string>
+    <string name="confirm_receipt">Confirm Receipt</string>
+    <string name="confirm_receipt_tip"> *The user chooses the cash payment,
+        after all the goods are delivered, please choose to confirm the collection! </string>
+    <string name="confirm_receipt_tip2">Are you sure you have received all the money?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+    <string name="no_permission">No Permission</string>
+    <string name="paymethod_rewardpoint">Pay with rewardpoint</string>
+
+    <string name="errand_order">Personalized Order</string>
+    <string name="takeout_order">Takeout Order</string>
+    <string name="feedback_price">Feedback Price</string>
+    <string name="cost_of_goods">Cost Of Goods</string>
+    <string name="total">Total</string>
+    <string name="input_total_price">Please input total price</string>
+    <string name="purchase_completion">Purchase Completion</string>
+    <string name="total_price">Total$</string>
+</resources>

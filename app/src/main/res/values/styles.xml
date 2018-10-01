@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation
+        </item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="mainActivityAnimation" parent="@android:style/Animation">
+        <item name="android:activityCloseEnterAnimation">
+            @anim/activity_translate_right_close_in
+        </item>
+        <item name="android:activityCloseExitAnimation">
+            @anim/activity_translate_right_close_out
+        </item>
+    </style>
+
+    <style name="activityAnimation" parent="@style/mainActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">
+            @anim/activity_translate_right_in
+        </item>
+        <item name="android:activityOpenExitAnimation">
+            @anim/activity_translate_right_out
+        </item>
+    </style>
+
+    <style name="menu_animation">
+        <item name="android:windowEnterAnimation">@anim/menu_appear</item>
+        <item name="android:windowExitAnimation">@anim/menu_disappear</item>
+    </style>
+
+</resources>
